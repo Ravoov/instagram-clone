@@ -1,0 +1,28 @@
+
+.kahoot-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.kahoot-btn {
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.15s ease;
+}
+
+.kahoot-btn:hover {
+    transform: scale(1.05);
+}
+
+.kahoot-red { background: #e21b3c; }
+.kahoot-blue { background: #1368ce; }
+.kahoot-yellow { background: #d89e00; }
+.kahoot-green { background: #26890c; }
+
